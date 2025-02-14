@@ -1,9 +1,17 @@
 """
 This is part of a project to create visualizations of sequence convergence.
 
-Input a sequence seq of points in the plain, a tuple of epsilons, and an accuracy parameter M.  
+Input a sequence seq of points in the plain, a tuple of epsilons, and an accuracy parameter acc.  
 
 If the sequence converges to zero fast enough, the functions conv_animation will output an animation that plots the sequence, zooms in on each epsilon ball, and shows the first point in the sequence after which all other points are expected to lie in the ball.
+
+To produce an example, input
+
+seq = lambda n: ((4/(n+1))**3 + 2/(n+1)**2, 2/(n+1)**2)
+
+epsilons = (1/4, 1/50, 1/400,1/10000)
+
+acc = 200
 """
 
 
