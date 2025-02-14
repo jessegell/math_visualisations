@@ -1,4 +1,4 @@
-# math_visualisations
+# math_visualizations
 
 This project contains visualizations of mathematical concepts.  
 
