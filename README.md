@@ -6,7 +6,7 @@ These are written in python using the matplotlib module.
 
 Files contain functions which can be run in python3 with user inputs.  
 
-The file **convergence_animation.py** creates a video demonstration of the concept of convergence of a sequence of points in the plane.  
+The file **convergence_animation.py** creates a video demonstration of the concept of convergence of a sequence of points in the plane.  You can see an **example video on [my website](https://jessegell.github.io/teaching/)**.
 
 - The user inputs:
     1. a sequence, written as two functions of n.
